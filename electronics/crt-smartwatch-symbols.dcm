@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +500V
+D Power symbol creates a global label with name "+500V"
+K power-flag
+$ENDCMP
+#
 #End Doc Library
