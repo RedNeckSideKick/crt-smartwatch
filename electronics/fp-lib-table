@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name crt-smartwatch-footprints)(type KiCad)(uri ${KIPRJMOD}/crt-smartwatch-footprints.pretty)(options "")(descr ""))
+)
