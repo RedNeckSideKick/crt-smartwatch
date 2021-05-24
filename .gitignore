@@ -28,3 +28,5 @@ fp-info-cache
 # Misc ignores
 # Office file recovery
 ~$*
+# Libre Office lock files
+.~lock.*
