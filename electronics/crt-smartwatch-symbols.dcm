@@ -5,4 +5,10 @@ D Power symbol creates a global label with name "+500V"
 K power-flag
 $ENDCMP
 #
+$CMP LiPo_3s
+D 3-cell (3S) LiPo Battery w/ Voltage Sensing Header
+K batt voltage-source cell
+F ~
+$ENDCMP
+#
 #End Doc Library
