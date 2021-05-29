@@ -11,4 +11,9 @@ K batt voltage-source cell
 F ~
 $ENDCMP
 #
+$CMP PHV12-0.5K10000P
+D High Voltage - Non-Isolated Module DC DC Converter 1 Output 500V - - - 10mA 10.8V - 16.5V Input
+F https://www.bellnix.com/pdf/PHV5W.pdf
+$ENDCMP
+#
 #End Doc Library
