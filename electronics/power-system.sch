@@ -1083,38 +1083,38 @@ Connection ~ 7400 1550
 Wire Wire Line
 	7400 1550 7500 1550
 $Comp
-L Regulator_Switching:LM2576S-3.3 U?
+L Regulator_Switching:LM2576T-5 U?
 U 1 1 611D8913
 P 6150 3950
 AR Path="/611D8913" Ref="U?"  Part="1" 
 AR Path="/611ADD88/611D8913" Ref="U?"  Part="1" 
 F 0 "U?" H 5750 4200 50  0000 L CNN
-F 1 "LM2576S-3.3" H 6150 4200 50  0000 L CNN
+F 1 "LM2576T-5" H 6150 4200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6150 3700 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 6150 3950 50  0001 C CNN
 	1    6150 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:CP_Small C?
 U 1 1 611D8919
-P 5300 4000
+P 5300 4100
 AR Path="/611D8919" Ref="C?"  Part="1" 
 AR Path="/611ADD88/611D8919" Ref="C?"  Part="1" 
-F 0 "C?" H 5310 4070 50  0000 L CNN
-F 1 "100u" H 5310 3920 50  0000 L CNN
-F 2 "" H 5300 4000 50  0001 C CNN
-F 3 "~" H 5300 4000 50  0001 C CNN
-	1    5300 4000
+F 0 "C?" H 5310 4170 50  0000 L CNN
+F 1 "120u" H 5310 4020 50  0000 L CNN
+F 2 "" H 5300 4100 50  0001 C CNN
+F 3 "~" H 5300 4100 50  0001 C CNN
+	1    5300 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5650 3850 5300 3850
 Wire Wire Line
-	5300 3850 5300 3900
+	5300 3850 5300 4000
 Connection ~ 5300 3850
 Wire Wire Line
-	5300 4100 5300 4350
+	5300 4200 5300 4350
 $Comp
 L power:GND1 #PWR?
 U 1 1 611D8923
@@ -1157,7 +1157,7 @@ $EndComp
 Wire Wire Line
 	6650 4050 6750 4050
 Wire Wire Line
-	7200 3850 6650 3850
+	7250 3850 6650 3850
 $Comp
 L Device:D_Schottky D?
 U 1 1 611D8937
@@ -1165,7 +1165,7 @@ P 6750 4200
 AR Path="/611D8937" Ref="D?"  Part="1" 
 AR Path="/611ADD88/611D8937" Ref="D?"  Part="1" 
 F 0 "D?" H 6750 4300 50  0000 C CNN
-F 1 "1N5822" H 6750 4100 50  0000 C CNN
+F 1 "SB520" H 6800 4100 50  0000 C CNN
 F 2 "" H 6750 4200 50  0001 C CNN
 F 3 "~" H 6750 4200 50  0001 C CNN
 	1    6750 4200
@@ -1209,36 +1209,36 @@ $EndComp
 $Comp
 L Device:CP_Small C?
 U 1 1 611D894E
-P 7200 4200
+P 7250 4200
 AR Path="/611D894E" Ref="C?"  Part="1" 
 AR Path="/611ADD88/611D894E" Ref="C?"  Part="1" 
-F 0 "C?" H 7210 4270 50  0000 L CNN
-F 1 "1000u" H 7210 4120 50  0000 L CNN
-F 2 "" H 7200 4200 50  0001 C CNN
-F 3 "~" H 7200 4200 50  0001 C CNN
-	1    7200 4200
+F 0 "C?" H 7260 4270 50  0000 L CNN
+F 1 "470u" H 7260 4120 50  0000 L CNN
+F 2 "" H 7250 4200 50  0001 C CNN
+F 3 "~" H 7250 4200 50  0001 C CNN
+	1    7250 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4100 7200 4050
-Connection ~ 7200 3850
+	7250 4100 7250 4050
+Connection ~ 7250 3850
 $Comp
 L power:GND1 #PWR?
 U 1 1 611D8956
-P 7200 4350
+P 7250 4350
 AR Path="/611D8956" Ref="#PWR?"  Part="1" 
 AR Path="/611ADD88/611D8956" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7200 4100 50  0001 C CNN
-F 1 "GND1" H 7200 4200 50  0000 C CNN
-F 2 "" H 7200 4350 50  0001 C CNN
-F 3 "" H 7200 4350 50  0001 C CNN
-	1    7200 4350
+F 0 "#PWR?" H 7250 4100 50  0001 C CNN
+F 1 "GND1" H 7250 4200 50  0000 C CNN
+F 2 "" H 7250 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+	1    7250 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4350 7200 4300
+	7250 4350 7250 4300
 Wire Wire Line
-	7200 3850 7450 3850
+	7250 3850 7450 3850
 $Comp
 L power:+BATT #PWR?
 U 1 1 611D895E
@@ -1257,13 +1257,13 @@ Wire Wire Line
 Wire Wire Line
 	5200 3850 5300 3850
 $Comp
-L power:+3V3 #PWR?
+L power:+5V #PWR?
 U 1 1 611D8966
 P 7450 3750
 AR Path="/611D8966" Ref="#PWR?"  Part="1" 
 AR Path="/611ADD88/611D8966" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7450 3600 50  0001 C CNN
-F 1 "+3V3" H 7450 3890 50  0000 C CNN
+F 1 "+5V" H 7450 3890 50  0000 C CNN
 F 2 "" H 7450 3750 50  0001 C CNN
 F 3 "" H 7450 3750 50  0001 C CNN
 	1    7450 3750
@@ -1271,60 +1271,13 @@ F 3 "" H 7450 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3850 7450 3750
-$Comp
-L power:+3.3VP #PWR?
-U 1 1 611D896D
-P 7750 3750
-AR Path="/611D896D" Ref="#PWR?"  Part="1" 
-AR Path="/611ADD88/611D896D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7750 3600 50  0001 C CNN
-F 1 "+3.3VP" H 7750 3890 50  0000 C CNN
-F 2 "" H 7750 3750 50  0001 C CNN
-F 3 "" H 7750 3750 50  0001 C CNN
-	1    7750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 611D8973
-P 8250 3750
-AR Path="/611D8973" Ref="#PWR?"  Part="1" 
-AR Path="/611ADD88/611D8973" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8250 3600 50  0001 C CNN
-F 1 "+3V3" H 8250 3890 50  0000 C CNN
-F 2 "" H 8250 3750 50  0001 C CNN
-F 3 "" H 8250 3750 50  0001 C CNN
-	1    8250 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 611D8979
-P 8000 3850
-AR Path="/611D8979" Ref="D?"  Part="1" 
-AR Path="/611ADD88/611D8979" Ref="D?"  Part="1" 
-F 0 "D?" H 8000 3950 50  0000 C CNN
-F 1 "1N5822" H 8000 3750 50  0000 C CNN
-F 2 "" H 8000 3850 50  0001 C CNN
-F 3 "~" H 8000 3850 50  0001 C CNN
-	1    8000 3850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	7750 3750 7750 3850
+	7150 4050 7250 4050
+Connection ~ 7250 4050
 Wire Wire Line
-	7750 3850 7850 3850
-Wire Wire Line
-	8150 3850 8250 3850
-Wire Wire Line
-	8250 3850 8250 3750
-Wire Wire Line
-	7150 4050 7200 4050
-Connection ~ 7200 4050
-Wire Wire Line
-	7200 4050 7200 3850
+	7250 4050 7250 3850
 Text Notes 5100 3500 0    50   ~ 0
-Supplementary 3.3v regulator for high current demand 3.3v circuitry
+5V Switching regulator (3A max output)
 $Comp
 L crt-smartwatch-symbols:PHV12-0.5K10000P VR?
 U 1 1 611E5A44
