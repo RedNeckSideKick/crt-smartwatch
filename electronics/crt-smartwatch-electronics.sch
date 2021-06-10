@@ -14,16 +14,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 9300 950  1450 1350
+S 9300 900  1450 1350
 U 6113F6B3
 F0 "CRT Driver" 50
 F1 "crt-driver.sch" 50
-F2 "~BLANK" I L 9300 1150 50 
+F2 "~BLANK" I L 9300 1100 50 
 $EndSheet
 $Sheet
-S 1000 950  1450 1350
+S 1000 900  1450 1350
 U 611ADD88
 F0 "Power System" 50
 F1 "power-system.sch" 50
+F2 "BATT_SDA" B R 2450 1050 50 
+F3 "BATT_SCL" I R 2450 1200 50 
+F4 "ALERT" B R 2450 1350 50 
 $EndSheet
 $EndSCHEMATC
