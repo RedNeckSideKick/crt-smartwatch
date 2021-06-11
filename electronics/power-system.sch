@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -89,53 +89,53 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 611D8735
-P 2500 1150
+P 2700 1200
 AR Path="/611D8735" Ref="J?"  Part="1" 
 AR Path="/611ADD88/611D8735" Ref="J?"  Part="1" 
-F 0 "J?" H 2500 1250 50  0000 C CNN
-F 1 "LiPo" H 2500 950 50  0000 C CNN
-F 2 "" H 2500 1150 50  0001 C CNN
-F 3 "~" H 2500 1150 50  0001 C CNN
-	1    2500 1150
-	1    0    0    -1  
+F 0 "J?" H 2700 1300 50  0000 C CNN
+F 1 "LiPo" H 2700 1000 50  0000 C CNN
+F 2 "" H 2700 1200 50  0001 C CNN
+F 3 "~" H 2700 1200 50  0001 C CNN
+	1    2700 1200
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2200 1300 2200 1250
+	2400 1250 2400 1200
 Wire Wire Line
-	2200 1250 2300 1250
+	2400 1200 2500 1200
 $Comp
 L power:+BATT #PWR?
 U 1 1 611D8743
-P 2200 1100
+P 2400 1050
 AR Path="/611D8743" Ref="#PWR?"  Part="1" 
 AR Path="/611ADD88/611D8743" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2200 950 50  0001 C CNN
-F 1 "+BATT" H 2200 1240 50  0000 C CNN
-F 2 "" H 2200 1100 50  0001 C CNN
-F 3 "" H 2200 1100 50  0001 C CNN
-	1    2200 1100
+F 0 "#PWR?" H 2400 900 50  0001 C CNN
+F 1 "+BATT" H 2400 1190 50  0000 C CNN
+F 2 "" H 2400 1050 50  0001 C CNN
+F 3 "" H 2400 1050 50  0001 C CNN
+	1    2400 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 1100 2200 1150
+	2400 1050 2400 1100
 Wire Wire Line
-	2200 1150 2300 1150
+	2400 1100 2500 1100
 Wire Wire Line
-	2300 1950 2000 1950
+	2500 2300 2200 2300
 Wire Wire Line
-	2300 1850 2000 1850
+	2500 2200 2200 2200
 Wire Wire Line
-	2300 1750 2000 1750
-Text Label 2000 1750 0    50   ~ 0
+	2500 2100 2200 2100
+Text Label 2200 2100 0    50   ~ 0
 CELL_2
-Text Label 2000 1850 0    50   ~ 0
+Text Label 2200 2200 0    50   ~ 0
 CELL_1
-Text Label 2000 1950 0    50   ~ 0
+Text Label 2200 2300 0    50   ~ 0
 CELL_0
-Text Label 2000 1650 0    50   ~ 0
+Text Label 2200 2000 0    50   ~ 0
 CELL_3
 Wire Wire Line
-	2300 1650 2000 1650
+	2500 2000 2200 2000
 Wire Wire Line
 	3550 1000 3250 1000
 Wire Wire Line
@@ -658,35 +658,35 @@ Wire Wire Line
 $Comp
 L power:+BATT #PWR?
 U 1 1 611D8894
-P 1200 1100
+P 1000 1800
 AR Path="/611D8894" Ref="#PWR?"  Part="1" 
 AR Path="/611ADD88/611D8894" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1200 950 50  0001 C CNN
-F 1 "+BATT" H 1200 1240 50  0000 C CNN
-F 2 "" H 1200 1100 50  0001 C CNN
-F 3 "" H 1200 1100 50  0001 C CNN
-	1    1200 1100
+F 0 "#PWR?" H 1000 1650 50  0001 C CNN
+F 1 "+BATT" H 1000 1940 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1800 1200 1700
+	1000 2500 1000 2400
 Wire Wire Line
-	1200 1200 1200 1100
+	1000 1900 1000 1800
 Wire Wire Line
-	1400 1300 1700 1300
+	1200 2000 1500 2000
 Wire Wire Line
-	1400 1400 1700 1400
+	1200 2100 1500 2100
 Wire Wire Line
-	1400 1500 1700 1500
+	1200 2200 1500 2200
 Wire Wire Line
-	1400 1600 1700 1600
-Text Label 1700 1300 2    50   ~ 0
+	1200 2300 1500 2300
+Text Label 1500 2000 2    50   ~ 0
 CELL_3
-Text Label 1700 1400 2    50   ~ 0
+Text Label 1500 2100 2    50   ~ 0
 CELL_2
-Text Label 1700 1500 2    50   ~ 0
+Text Label 1500 2200 2    50   ~ 0
 CELL_1
-Text Label 1700 1600 2    50   ~ 0
+Text Label 1500 2300 2    50   ~ 0
 CELL_0
 Connection ~ 1950 4050
 $Comp
@@ -718,14 +718,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 611D88B7
-P 2500 1750
+P 2700 2100
 AR Path="/611D88B7" Ref="J?"  Part="1" 
 AR Path="/611ADD88/611D88B7" Ref="J?"  Part="1" 
-F 0 "J?" H 2500 1950 50  0000 C CNN
-F 1 "Balance" H 2500 1450 50  0000 C CNN
-F 2 "" H 2500 1750 50  0001 C CNN
-F 3 "~" H 2500 1750 50  0001 C CNN
-	1    2500 1750
+F 0 "J?" H 2700 2300 50  0000 C CNN
+F 1 "Balance" H 2700 1800 50  0000 C CNN
+F 2 "" H 2700 2100 50  0001 C CNN
+F 3 "~" H 2700 2100 50  0001 C CNN
+	1    2700 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -752,17 +752,17 @@ $EndComp
 $Comp
 L crt-smartwatch-symbols:LiPo_3s BT?
 U 1 1 611D88C7
-P 1200 1450
+P 1000 2150
 AR Path="/611D88C7" Ref="BT?"  Part="1" 
 AR Path="/611ADD88/611D88C7" Ref="BT?"  Part="1" 
-F 0 "BT?" H 1300 1700 50  0000 L CNN
-F 1 "LiPo_3s" H 1300 1200 50  0000 L CNN
-F 2 "" V 1800 1660 50  0001 C CNN
-F 3 "~" V 1800 1660 50  0001 C CNN
-	1    1200 1450
+F 0 "BT?" H 1100 2400 50  0000 L CNN
+F 1 "LiPo_3s" H 1100 1900 50  0000 L CNN
+F 2 "" V 1600 2360 50  0001 C CNN
+F 3 "~" V 1600 2360 50  0001 C CNN
+	1    1000 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 1000 2100 0    50   ~ 0
+Text Notes 750  700  0    50   ~ 0
 Battery and connectors
 Text Notes 3150 2400 0    50   ~ 0
 Cell voltage sensing RC filters
@@ -1338,23 +1338,23 @@ $EndComp
 $Comp
 L crt-smartwatch-symbols:GNDBATT #PWR?
 U 1 1 60D6F664
-P 1200 1800
-F 0 "#PWR?" H 1200 1550 50  0001 C CNN
-F 1 "GNDBATT" H 1200 1650 50  0000 C CNN
-F 2 "" H 1200 1800 50  0001 C CNN
-F 3 "" H 1200 1800 50  0001 C CNN
-	1    1200 1800
+P 1000 2500
+F 0 "#PWR?" H 1000 2250 50  0001 C CNN
+F 1 "GNDBATT" H 1000 2350 50  0000 C CNN
+F 2 "" H 1000 2500 50  0001 C CNN
+F 3 "" H 1000 2500 50  0001 C CNN
+	1    1000 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L crt-smartwatch-symbols:GNDBATT #PWR?
 U 1 1 60D777EA
-P 2200 1300
-F 0 "#PWR?" H 2200 1050 50  0001 C CNN
-F 1 "GNDBATT" H 2200 1150 50  0000 C CNN
-F 2 "" H 2200 1300 50  0001 C CNN
-F 3 "" H 2200 1300 50  0001 C CNN
-	1    2200 1300
+P 2400 1250
+F 0 "#PWR?" H 2400 1000 50  0001 C CNN
+F 1 "GNDBATT" H 2400 1100 50  0000 C CNN
+F 2 "" H 2400 1250 50  0001 C CNN
+F 3 "" H 2400 1250 50  0001 C CNN
+	1    2400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1566,4 +1566,121 @@ Connection ~ 3200 5950
 Wire Wire Line
 	3200 5950 3200 6000
 Connection ~ 3200 5750
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60D163CA
+P 1950 1450
+AR Path="/60D163CA" Ref="J?"  Part="1" 
+AR Path="/611ADD88/60D163CA" Ref="J?"  Part="1" 
+F 0 "J?" H 1950 1550 50  0000 C CNN
+F 1 "12V" H 1950 1250 50  0000 C CNN
+F 2 "" H 1950 1450 50  0001 C CNN
+F 3 "~" H 1950 1450 50  0001 C CNN
+	1    1950 1450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1650 1500 1650 1450
+Wire Wire Line
+	1650 1450 1750 1450
+Wire Wire Line
+	1650 1350 1750 1350
+$Comp
+L crt-smartwatch-symbols:GNDBATT #PWR?
+U 1 1 60D163DA
+P 1650 1500
+F 0 "#PWR?" H 1650 1250 50  0001 C CNN
+F 1 "GNDBATT" H 1650 1350 50  0000 C CNN
+F 2 "" H 1650 1500 50  0001 C CNN
+F 3 "" H 1650 1500 50  0001 C CNN
+	1    1650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 60D72CBD
+P 1350 1200
+AR Path="/60D72CBD" Ref="D?"  Part="1" 
+AR Path="/611ADD88/60D72CBD" Ref="D?"  Part="1" 
+F 0 "D?" H 1350 1300 50  0000 C CNN
+F 1 "SB520" H 1350 1100 50  0000 C CNN
+F 2 "" H 1350 1200 50  0001 C CNN
+F 3 "~" H 1350 1200 50  0001 C CNN
+	1    1350 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 60D74568
+P 1650 1200
+AR Path="/60D74568" Ref="D?"  Part="1" 
+AR Path="/611ADD88/60D74568" Ref="D?"  Part="1" 
+F 0 "D?" H 1650 1300 50  0000 C CNN
+F 1 "SB520" H 1650 1100 50  0000 C CNN
+F 2 "" H 1650 1200 50  0001 C CNN
+F 3 "~" H 1650 1200 50  0001 C CNN
+	1    1650 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 60D8B963
+P 1050 1200
+AR Path="/60D8B963" Ref="D?"  Part="1" 
+AR Path="/611ADD88/60D8B963" Ref="D?"  Part="1" 
+F 0 "D?" H 1050 1300 50  0000 C CNN
+F 1 "SB520" H 1050 1100 50  0000 C CNN
+F 2 "" H 1050 1200 50  0001 C CNN
+F 3 "~" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1350 1350 1350
+Connection ~ 1650 1350
+Connection ~ 1350 1350
+Wire Wire Line
+	1350 1350 1050 1350
+Wire Wire Line
+	1750 1050 1650 1050
+Connection ~ 1350 1050
+Wire Wire Line
+	1350 1050 1050 1050
+Connection ~ 1650 1050
+Wire Wire Line
+	1650 1050 1350 1050
+$Comp
+L power:+BATT #PWR?
+U 1 1 60D9E5B3
+P 1750 1050
+AR Path="/60D9E5B3" Ref="#PWR?"  Part="1" 
+AR Path="/611ADD88/60D9E5B3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1750 900 50  0001 C CNN
+F 1 "+BATT" H 1750 1190 50  0000 C CNN
+F 2 "" H 1750 1050 50  0001 C CNN
+F 3 "" H 1750 1050 50  0001 C CNN
+	1    1750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 60DB5A3B
+P 750 1200
+AR Path="/60DB5A3B" Ref="D?"  Part="1" 
+AR Path="/611ADD88/60DB5A3B" Ref="D?"  Part="1" 
+F 0 "D?" H 750 1300 50  0000 C CNN
+F 1 "SB520" H 750 1100 50  0000 C CNN
+F 2 "" H 750 1200 50  0001 C CNN
+F 3 "~" H 750 1200 50  0001 C CNN
+	1    750  1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  1350 1050 1350
+Connection ~ 1050 1350
+Wire Wire Line
+	1050 1050 750  1050
+Connection ~ 1050 1050
+Text Notes 600  1000 0    50   ~ 0
+Replace with THICC diode\nin final design?
 $EndSCHEMATC
